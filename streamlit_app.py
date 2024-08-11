@@ -8,6 +8,7 @@ st.markdown(
 
 
 st.markdown(
+    "<br><br>" 
     "<p>In the Kingdom, the distribution of job postings reveals some interesting trends. As depicted in chart below, Riyadh dominates the job market, accounting for a significant 42.8% of the opportunities, followed by Makkah, which holds 24.8% of the postings. Other regions and the Eastern Province also contribute to the job landscape, though to a lesser extent.</p>",
     unsafe_allow_html=True
 )
