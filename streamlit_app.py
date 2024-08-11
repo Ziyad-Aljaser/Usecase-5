@@ -1,4 +1,16 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+# HTML code with autoplay and muted attributes
+video_html = """
+<video autoplay muted loop style="width: 100%;">
+  <source src="https://github.com/Ziyad-Aljaser/Usecase-5/blob/main/Job_Market_Video.mp4?raw=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+"""
+
+# Display the video using custom HTML with a smaller height
+components.html(video_html, height=500)
 
 st.markdown(
     "<br><p style='font-size:24px; font-weight:bold;'>Are you curious about the job market dynamics in the Kingdom?</p>"
