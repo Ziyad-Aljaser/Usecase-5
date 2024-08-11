@@ -1,8 +1,9 @@
 import streamlit as st
 
-st.html(
-   "<br>"
-    "<p>Are you curious about the job market dynamics in the Kingdom? This analysis uncovers the key trends shaping job opportunities across different regions, gender preferences, salary expectations, and experience levels.</p>"
+st.markdown(
+    "<br><p style='font-size:24px; font-weight:bold;'>Are you curious about the job market dynamics in the Kingdom?</p>"
+    "<p>This analysis uncovers the key trends shaping job opportunities across different regions, gender preferences, salary expectations, and experience levels.</p>",
+    unsafe_allow_html=True
 )
 
 st.image('Image1.png', caption='Screenshot 1')
