@@ -16,6 +16,7 @@ st.image('Image1.png', caption='Screenshot 1')
 
 
 st.markdown(
+    "<br><br>" 
     "<p>Moving forward, the chart below highlights the gender preferences associated with these job postings. It becomes apparent that while a substantial 39.5% of the jobs are open to both genders, there is still a noticeable bias, with 32.7% of positions favoring males and 27.8% favoring females.</p>",
     unsafe_allow_html=True
 )
@@ -23,6 +24,7 @@ st.image('image2.png', caption='Screenshot 2')
 
 
 st.markdown(
+    "<br><br>" 
     "<p>Delving into the financial aspect, the chart below provides insight into the expected salary range for fresh graduates. The majority of positions offer a starting salary of around 4,000 SAR, with only a few roles extending into higher salary brackets, reflecting the entry-level nature of these opportunities.</p>",
     unsafe_allow_html=True
 )
@@ -30,6 +32,7 @@ st.image('Image3.png', caption='Screenshot 3')
 
 
 st.markdown(
+    "<br><br>" 
     "<p>Lastly, this chart sheds light on the experience level sought by employers. A striking 800 job postings are aimed at fresh graduates with no prior experience, while experienced professionals are considered for just over 600 positions, underscoring the demand for fresh talent in the Kingdom’s job market.</p>",
     unsafe_allow_html=True
 )
