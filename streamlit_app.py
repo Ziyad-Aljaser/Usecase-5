@@ -1,6 +1,13 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+
+st.markdown(
+    "<br><p style='font-size:24px; font-weight:bold;'>Are you curious about the job market dynamics in the Kingdom?</p>"
+    "<p>This analysis uncovers the key trends shaping job opportunities across different regions, gender preferences, salary expectations, and experience levels.</p>",
+    unsafe_allow_html=True
+)
+
 # HTML code with autoplay and muted attributes
 video_html = """
 <video autoplay muted loop style="width: 100%;">
@@ -13,14 +20,7 @@ video_html = """
 components.html(video_html, height=500)
 
 st.markdown(
-    "<br><p style='font-size:24px; font-weight:bold;'>Are you curious about the job market dynamics in the Kingdom?</p>"
-    "<p>This analysis uncovers the key trends shaping job opportunities across different regions, gender preferences, salary expectations, and experience levels.</p>",
-    unsafe_allow_html=True
-)
-
-
-st.markdown(
-    "<br><br>" 
+    "<br><br><br>" 
     "<p>In the Kingdom, the distribution of job postings reveals some interesting trends. As depicted in chart below, Riyadh dominates the job market, accounting for a significant 42.8% of the opportunities, followed by Makkah, which holds 24.8% of the postings. Other regions and the Eastern Province also contribute to the job landscape, though to a lesser extent.</p>",
     unsafe_allow_html=True
 )
